@@ -1,5 +1,9 @@
 
 /* common shared style */
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -8,11 +12,11 @@ body{
 }
 .btn-primary{
   color: #FFF;
-font-size: 20px;
-font-weight: 700;
+font-size: 18px;
+font-weight: 650;
 border-radius: 5px;
 background: #FD6E0A;
-padding: 15px 35px;
+padding: 15px 30px;
 border: 0;
 }
 
@@ -41,4 +45,52 @@ font-weight: 400;
   color: #181818;
 font-size: 45px;
 font-weight: 800;
+}
+
+/* header related style  */ 
+
+.header{
+  background-color: #FFF8F3;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 700px 462px ;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 150px;
+  justify-content: space-between;
+}
+
+.banner img{
+  width: 500px;
+  height: 600px;
+}
+.ban-gretting{
+  color:#474747;
+font-size: 35px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.ban-title{
+  color: #181818;
+font-size: 75px;
+font-weight: 700;
+margin: 5px 0;
+padding: 0;
+}
+.ban-description{
+  color: #757575;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+padding-right: 45px;
+}
+.banner-conten{
+  max-width: 495px;
+}
+.banner-content button{
+  margin: 0 15px 5px;
 }
